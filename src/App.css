@@ -1,0 +1,86 @@
+.header__item{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('/images/RickAndMortyBanner.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__avatar{
+    display: flex;
+    max-height: 150px;
+}
+
+.header__avatar-item{
+    display: block;
+}
+
+.header__form{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1084px;
+    width: 100%;
+}
+
+.header__form-input{
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+    width: 80%;
+    opacity: 0.7;
+}
+
+.header__form-btn{
+    border-radius: 0 5px 5px 0;
+    width: 20%;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.header__form-btn:hover{
+    transform: scale(1.05); 
+}
+
+.header__active{
+    transform: scale(1);
+    box-shadow: 1px 1px 5px #F9F4FA;
+}
+
+.resident__container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    max-width: 1480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    text-align: center;
+    color: white;
+}
+
+.footer__btn{
+    aspect-ratio: 1;
+    padding-top: 4px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.footer__btn:hover{
+    background-color: #041d20;
+}
